@@ -99,7 +99,7 @@ scholar:
   source: _bibliography
   #repository: pdf
   bibliography: references
-  #bibliography_template: bibliography
+  bibliography_template: bibliography
 
   replace_strings: true
 
