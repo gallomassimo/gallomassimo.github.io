@@ -58,6 +58,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-scholar
 
+plugins_dir: ['_plugins']
+
 author:
   name   : "Massimo Gallo"
   avatar : "/assets/images/bio-photo.jpg"
