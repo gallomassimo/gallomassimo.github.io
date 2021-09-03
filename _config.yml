@@ -56,7 +56,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-scholar
+  # - jekyll-scholar
 
 author:
   name   : "Massimo Gallo"
