@@ -97,7 +97,7 @@ scholar:
   bibliography_list_tag: ul
 
   source: _bibliography
-  #repository: pdf
+  repository: pdf
   bibliography: references
   bibliography_template: bibliography
 
