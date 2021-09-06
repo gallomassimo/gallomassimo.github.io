@@ -65,6 +65,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Principal researcher at Huawei, Paris"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "first.last@huawei.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://gallomassimo.github.io/"
@@ -77,6 +80,7 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/massimo-gallo-782b3b38/"
+
 
 footer:
   links:
