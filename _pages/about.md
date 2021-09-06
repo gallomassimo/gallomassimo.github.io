@@ -7,7 +7,7 @@ title: "Home"
 
 ### <i class="fas fa-newspaper"></i> News
 
--  <mark>We are hiring!!</mark>. A permanent (Senior) Research Engineer position on performance analysis, advanced data structure and network programmability in the context of Network measurementsis available in my group. PM me if interested.
+-  <mark>We are hiring!!</mark> <i class="fab fa-fw fa-linkedin"></i> [Research engineer](https://www.linkedin.com/jobs/view/2706661706/?capColoOverride=true)
 
 
 ### <i class="fas fa-address-card"> Bio
