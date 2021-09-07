@@ -7,7 +7,7 @@ title: "Home"
 
 ### <i class="fas fa-newspaper"></i> News
 
--  <mark>We are hiring!!</mark> <i class="fab fa-fw fa-linkedin"></i> [Research engineer](https://www.linkedin.com/jobs/view/2706661706/?capColoOverride=true)
+- <i class="fab fa-fw fa-linkedin"></i> <mark>[We are hiring!](https://www.linkedin.com/jobs/view/2706661706/?capColoOverride=true)</mark>
 
 
 ### <i class="fas fa-address-card"> Bio
