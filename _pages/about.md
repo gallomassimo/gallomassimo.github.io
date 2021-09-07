@@ -7,7 +7,7 @@ title: "Home"
 
 ### <i class="fas fa-newspaper"></i> News
 
-- <i class="fab fa-fw fa-linkedin"></i> <mark>[We are hiring!](https://www.linkedin.com/jobs/view/2706661706/?capColoOverride=true)</mark>
+- <mark>We are hiring! </mark>[Linkedin](https://www.linkedin.com/jobs/view/2706661706/?capColoOverride=true)
 
 
 ### <i class="fas fa-address-card"> Bio
