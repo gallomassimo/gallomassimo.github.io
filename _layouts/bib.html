@@ -1,0 +1,52 @@
+---
+---
+<font size="-1">
+
+<abbr><strong><a name="{{key | regex: '^DR:', '' }}"></a>[{{key | regex: '^DR:', '' }}]</strong></abbr> 
+{{ entry.author }}, 
+{% if entry.howpublished %}
+    <i class="fa fa-file-pdf-o" aria-hidden="true" href="{{entry.howpublished}}"></i> 
+    <a href="{{entry.howpublished | regex: 'https://gallomassimo.github.io/'  }}" > <b> {{ entry.title }} </b></a> 
+  {% else %}
+    <b>{{ entry.title }}</b>
+{% endif %} 
+
+{% if entry.type == "article" %}
+  <button style="background-color: #008CBA; border-radius: 8px; "> <b> journal</b></button>
+
+{% elsif entry.type == "inbook" %}
+  <button style="background-color: #555555; border-radius: 8px; "> <b> bookch</b></button>
+
+{% elsif entry.type == "inproceedings" %}
+  {{entry.booktitle}}
+  <button style="background-color: #4CAF50; border-radius: 8px; "> <b> conference</b></button>
+
+{% elsif entry.key contains "PATENT" %}
+  <button style="background-color: #f44336; border-radius: 8px; "> <b> patent</b></button>
+
+{% elsif entry.key contains "PCT" %}
+  <button style="background-color: #f44336; border-radius: 8px; "> <b> patent</b></button>
+
+{% elsif entry.type contains "theses" %}
+  <button style="background-color: #4CAF50; border-radius: 8px; "> <b> thesis</b></button>
+  
+{% elsif entry.type contains "techrep" %}
+  <button style="background-color: #e7e7e7; color: black; border-radius: 8px; "> <b> tech. rep.</button>
+{% endif %} 
+
+
+<div class='parent'>
+{% if entry.abstract %}
+    <details style="display: inline-block; margin-right: 2.5em">
+      <summary>Abstract</summary>
+      <div class="content" ><p style="font-size: 1.1em">{{entry.abstract}}</p></div>
+    </details>
+{% endif %}
+<details style="display: inline-block; ">
+  <summary>Bibtex</summary>
+  <div class="content" ><p style="font-size: 1.1em">{{entry.bibtex}}</p></div>
+</details> 
+</div>
+
+
+</font>
