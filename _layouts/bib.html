@@ -38,13 +38,13 @@
 <div class='parent'>
 {% if entry.abstract %}
     <details style="display: inline-block; margin-right: 2.5em">
-      <summary>Abstract</summary>
+      <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
       <div class="content" ><p style="font-size: 1.1em">{{entry.abstract}}</p></div>
     </details>
 {% endif %}
 <details style="display: inline-block; ">
-  <summary>Bibtex</summary>
-  <div class="content" ><p style="font-size: 1.1em">{{entry.bibtex}}</p></div>
+  <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
+  <div class="content" ><p style="font-size: 1.1em"><pre>{{entry.bibtex}}</pre></p></div>
 </details> 
 </div>
 
