@@ -301,7 +301,12 @@ A., Finamore and J., Roberts and M., Gallo and D., Rossi,
  
 
 
-<div class="parent">
+
+
+    <details style="display: inline-block; margin-right: 2.5em">
+      <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
+      <div class="content"><p style="font-size: 1.1em">While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh.We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – this testifies the practical interest of our proposal.</p></div>
+    </details>
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -314,7 +319,7 @@ A., Finamore and J., Roberts and M., Gallo and D., Rossi,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -324,8 +329,9 @@ A., Finamore and J., Roberts and M., Gallo and D., Rossi,
 <abbr><strong><a name="gallo2021fenxi"></a>[gallo2021fenxi]</strong></abbr> 
 M., Gallo and A., Finamore and G., Simon and D., Rossi, 
 
-    <b>FENXI: Fast in-network analytics</b>
- 
+    <i class="fa fa-file-pdf-o" aria-hidden="true" href="/docs/2021sec.pdf"></i> 
+    <a href="/docs/2021sec.pdf"> <b> FENXI: Fast in-network analytics </b></a> 
+   
 
 
   Proc. IEEE/ACM Symp. Edge Comput.(SEC)
@@ -334,7 +340,13 @@ M., Gallo and A., Finamore and G., Simon and D., Rossi,
  
 
 
-<div class="parent">
+
+
+    <details style="display: inline-block; margin-right: 2.5em">
+      <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
+      <div class="content"><p style="font-size: 1.1em">Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. 
+  In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both both adversarial and realistic network conditions. Our analysis shows that FENXI can sustains 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.</p></div>
+    </details>
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -342,12 +354,52 @@ M., Gallo and A., Finamore and G., Simon and D., Rossi,
   title = {FENXI: Fast in-network analytics},
   author = {M., Gallo and A., Finamore and G., Simon and D., Rossi},
   booktitle = {Proc. IEEE/ACM Symp. Edge Comput.(SEC)},
+  howpublished = {/docs/2021sec.pdf},
   pages = {1--14},
   year = {2021}
 }
 </pre></p></div>
 </details> 
-</div>
+
+
+
+</font></li>
+<li><font size="-1">
+
+<abbr><strong><a name="azorin2021DLMeasure"></a>[azorin2021DLMeasure]</strong></abbr> 
+Azorin, Raphaël and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario, 
+
+    <i class="fa fa-file-pdf-o" aria-hidden="true" href="/docs/2021Conext.pdf"></i> 
+    <a href="/docs/2021Conext.pdf"> <b> Towards a Generic Deep Learning Pipeline for Traffic Measurements </b></a> 
+   
+
+
+  In Proc. of CoNEXT Student Workshop
+  <button style="background-color: #4CAF50; border-radius: 8px; "> <b> conference</b></button>
+
+ 
+
+
+
+
+    <details style="display: inline-block; margin-right: 2.5em">
+      <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
+      <div class="content"><p style="font-size: 1.1em">Traffic measurements are key for network management as testified by the rich literature from both academia and industry. At their foundation, measurements rely on transformation functions f(x) = y, mapping input traffic data x to an output performance metric y. Yet, common practices adopt a bottom-up design (i.e., metric-based) which leads to (i) invest a lot of efforts into (re)discovering how to perform such mapping and (ii) create specialized solutions. For instance, sketches are a compact way to extract traffic properties (heavy-hitters, super-spreaders, etc.) but require analytical modeling to offer correctness guarantees and careful engineering to enable in-device deployment and network-wide measurements.</p></div>
+    </details>
+
+<details style="display: inline-block; ">
+  <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
+  <div class="content"><p style="font-size: 1.1em"><pre>@inproceedings{azorin2021DLMeasure,
+  author = {Azorin, Rapha\"{e}l and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario},
+  title = {Towards a Generic Deep Learning Pipeline for Traffic Measurements},
+  year = {2021},
+  booktitle = {In Proc. of CoNEXT Student Workshop},
+  howpublished = {/docs/2021Conext.pdf},
+  pages = {5–6}
+}
+</pre></p></div>
+</details> 
+
 
 
 </font></li></ul>
@@ -357,28 +409,31 @@ M., Gallo and A., Finamore and G., Simon and D., Rossi,
 <abbr><strong><a name="gallo2020real"></a>[gallo2020real]</strong></abbr> 
 M., Gallo and A., Finamore and G., Simon and D., Rossi, 
 
-    <b>Real-time deep learning based traffic analytics</b>
+    <i class="fa fa-file-pdf-o" aria-hidden="true" href="/docs/2020sigcomm.pdf"></i> 
+    <a href="/docs/2020sigcomm.pdf"> <b> Real-time deep learning based traffic analytics </b></a> 
+   
+
+
+  In Proc. of ACM SIGCOMM, Demo session
+  <button style="background-color: #4CAF50; border-radius: 8px; "> <b> conference</b></button>
+
  
 
 
-  <button style="background-color: #008CBA; border-radius: 8px; "> <b> journal</b></button>
 
- 
-
-
-<div class="parent">
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
-  <div class="content"><p style="font-size: 1.1em"><pre>@article{gallo2020real,
+  <div class="content"><p style="font-size: 1.1em"><pre>@inproceedings{gallo2020real,
   title = {Real-time deep learning based traffic analytics},
   author = {M., Gallo and A., Finamore and G., Simon and D., Rossi},
-  journal = {ACM SIGCOMM, Demo session},
+  booktitle = {In Proc. of ACM SIGCOMM, Demo session},
+  howpublished = {/docs/2020sigcomm.pdf},
   year = {2020}
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -398,7 +453,7 @@ M., Trinelli and M., Gallo and M., Rifai and F., Pianese,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -411,7 +466,7 @@ M., Trinelli and M., Gallo and M., Rifai and F., Pianese,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -430,7 +485,7 @@ T., Zhang and L., Linguaglossa and J., Roberts and L., Iannone and M., Gallo and
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -444,7 +499,7 @@ T., Zhang and L., Linguaglossa and J., Roberts and L., Iannone and M., Gallo and
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -462,7 +517,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -478,7 +533,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -497,7 +552,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and L., Iannone an
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -510,7 +565,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and L., Iannone an
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -530,7 +585,7 @@ M., Gallo and S., Ghamri-Doudane and F., Pianese,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -544,7 +599,7 @@ M., Gallo and S., Ghamri-Doudane and F., Pianese,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -563,7 +618,7 @@ M., Gallo and R., Laufer,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -576,7 +631,7 @@ M., Gallo and R., Laufer,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -595,7 +650,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -608,7 +663,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -627,7 +682,7 @@ M., Gallo and F., Pianese,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -640,7 +695,7 @@ M., Gallo and F., Pianese,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -659,7 +714,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -673,7 +728,7 @@ T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and D., Rossi,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -689,7 +744,7 @@ L., Muscariello and M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -702,7 +757,7 @@ L., Muscariello and M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -721,7 +776,7 @@ Y., Duan and M., Gallo and S., Traverso and R., Laufer and P., Giaccone,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -734,7 +789,7 @@ Y., Duan and M., Gallo and S., Traverso and R., Laufer and P., Giaccone,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -754,7 +809,7 @@ F., Pianese and M., Gallo and A., Conte and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -768,7 +823,7 @@ F., Pianese and M., Gallo and A., Conte and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -786,7 +841,7 @@ R., Laufer and M., Gallo and D., Perino and A., Nandugudi,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -802,7 +857,7 @@ R., Laufer and M., Gallo and D., Perino and A., Nandugudi,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -821,7 +876,7 @@ M., Rodrigues and G., Dán and M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -835,7 +890,7 @@ M., Rodrigues and G., Dán and M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -853,7 +908,7 @@ A., Nandugudi and M., Gallo and D., Perino and F., Pianese,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -869,7 +924,7 @@ A., Nandugudi and M., Gallo and D., Perino and F., Pianese,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -888,7 +943,7 @@ D., Kirchner and R., Ferdous and R., Lo Cigno and L., Maccari and Linguaglossa, 
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -901,7 +956,7 @@ D., Kirchner and R., Ferdous and R., Lo Cigno and L., Maccari and Linguaglossa, 
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -920,7 +975,7 @@ D., Perino and M., Gallo and R., Laufer and Z., Ben-Houidi and F., Pianese,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -934,7 +989,7 @@ D., Perino and M., Gallo and R., Laufer and Z., Ben-Houidi and F., Pianese,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -953,7 +1008,7 @@ A.S., Khatouni and M., Mellia and L., Venturini and D., Perino and M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -967,7 +1022,7 @@ A.S., Khatouni and M., Mellia and L., Venturini and D., Perino and M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -987,7 +1042,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1001,7 +1056,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1020,7 +1075,7 @@ R., Mansilha and L., Saino and M.P., Barcellos and M., Gallo and E., Leonardi an
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1033,7 +1088,7 @@ R., Mansilha and L., Saino and M.P., Barcellos and M., Gallo and E., Leonardi an
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1052,7 +1107,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1065,7 +1120,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -1084,7 +1139,7 @@ M., Gallo and B., Kauffmann and L., Muscariello and A., Simonian and C., Tanguy,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1099,7 +1154,7 @@ M., Gallo and B., Kauffmann and L., Muscariello and A., Simonian and C., Tanguy,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1118,7 +1173,7 @@ M., Gallo and Gu, Lin and D., Perino and M., Varvello,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1131,7 +1186,7 @@ M., Gallo and Gu, Lin and D., Perino and M., Varvello,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1150,7 +1205,7 @@ D., Perino and M., Gallo and R., Boislaigue and L., Linguaglossa and M., Varvell
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1163,7 +1218,7 @@ D., Perino and M., Gallo and R., Boislaigue and L., Linguaglossa and M., Varvell
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -1182,7 +1237,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1198,7 +1253,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1217,7 +1272,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and M., Papalini,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1231,7 +1286,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and M., Papalini,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1249,7 +1304,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1265,7 +1320,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1284,7 +1339,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and M., Papalini and S., Wang,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1298,7 +1353,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and M., Papalini and S., Wang,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -1317,7 +1372,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1333,7 +1388,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1352,7 +1407,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
  
 
 
-<div class="parent">
+
 
     <details style="display: inline-block; margin-right: 2.5em">
       <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
@@ -1371,7 +1426,7 @@ G., Carofiglio and M., Gallo and L., Muscariello,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1386,7 +1441,7 @@ M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1398,7 +1453,7 @@ M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1413,7 +1468,7 @@ M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1425,7 +1480,7 @@ M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -1445,7 +1500,7 @@ L., Muscariello and G., Carofiglio and M., Gallo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1458,7 +1513,7 @@ L., Muscariello and G., Carofiglio and M., Gallo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1477,7 +1532,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1491,7 +1546,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1509,7 +1564,7 @@ Alessandria, Eugenio and M., Gallo and E., Leonardi and M., Mellia and M., Meo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1525,7 +1580,7 @@ Alessandria, Eugenio and M., Gallo and E., Leonardi and M., Mellia and M., Meo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li>
@@ -1543,7 +1598,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1556,7 +1611,7 @@ G., Carofiglio and M., Gallo and L., Muscariello and D., Perino,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
@@ -1576,7 +1631,7 @@ A., Eugenio and M., Gallo and E., Leonardi and M., Mellia and M., Meo,
  
 
 
-<div class="parent">
+
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
@@ -1590,7 +1645,7 @@ A., Eugenio and M., Gallo and E., Leonardi and M., Mellia and M., Meo,
 }
 </pre></p></div>
 </details> 
-</div>
+
 
 
 </font></li></ul>
