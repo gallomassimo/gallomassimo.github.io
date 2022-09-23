@@ -12,6 +12,7 @@
 {% endif %} 
 
 {% if entry.type == "article" %}
+  {{entry.journal}}
   <button style="background-color: #008CBA; border-radius: 8px; "> <b> journal</b></button>
 
 {% elsif entry.type == "inbook" %}
@@ -33,22 +34,21 @@
 {% elsif entry.type contains "techrep" %}
   <button style="background-color: #e7e7e7; color: black; border-radius: 8px; "> <b> tech. rep.</button>
 {% endif %} 
-<br>
-<div style="float:  left">
+
+<div>
 
 <details style="display: inline-block; ">
   <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
   <div class="content" ><p style="font-size: 1.1em"><pre>{{entry.bibtex}}</pre></p></div>
 </details> 
 {% if entry.abstract %}
-    &nbsp;
+
     <details style="display: inline-block; margin-right: 2.5em">
       <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
       <div class="content" ><p style="font-size: 1.1em">{{entry.abstract}}</p></div>
     </details>
 {% endif %}
 </div>
-<br>
 
 
 </font>
