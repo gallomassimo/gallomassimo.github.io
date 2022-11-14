@@ -324,14 +324,16 @@
 @inproceedings{zhang2019comparing,
   title={Comparing the performance of state-of-the-art software switches for NFV},
   author={T., Zhang and L., Linguaglossa and M., Gallo and P., Giaccone and L., Iannone and J., Roberts},
-  booktitle={Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies},
+  booktitle={In Proc of CoNEXT},
   pages={68--81},
   year={2019}
 }
 
-@article{muscariellopending,
+@inproceedings{muscariellopending,
   title={Pending Interest Table Sizing in Named Data Networking},
-  author={L., Muscariello and G., Carofiglio and M., Gallo and D., Perino}
+  booktitle={In Proc, of ACM ICN},
+  author={L., Muscariello and G., Carofiglio and M., Gallo and D., Perino},
+  year={2015}
 }
 
 @inproceedings{gallo2020real,
@@ -367,7 +369,7 @@ pages = {5–6}
 @inproceedings{finamore2022accelerating,
   title={Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching},
   author={A., Finamore and J., Roberts and M., Gallo and D., Rossi},
-  booktitle={In Proc. of IEEE INFOCOM 2022},
+  booktitle={In Proc. of IEEE INFOCOM},
   howpublished = {/docs/2022Infocom.pdf},
   abstract={While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh.We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – this testifies the practical interest of our proposal.},
   year={2022}
@@ -376,7 +378,8 @@ pages = {5–6}
 @inproceedings{benhouidi2022representation,
   title={Towards a systematic multi-modal representation learning for network data},
   author = {Z., Ben Houidi and R., Azorin and M., Gallo and A., Finamore and D., Rossi},
-  booktitle={To appear at HotNets 2022},
+  booktitle={In Proc. of HotNets},
+  howpublished = {/docs/2022HotNets.pdf},
   abstract={Learning the right representations from complex input data is the key ability of successful machine learning (ML) models. The latter are often tailored to a specific data modality. For example, recurrent neural networks (RNNs) were designed having the processing of sequential data in mind, while convolutional neural networks (CNNs) were designed to exploit spatial correlation naturally present in images. Unlike computer vision (CV) and natural language processing (NLP), each of which targets a single well-defined modality, network ML problems often have a mixture of data modalities as input. Yet, instead of exploiting such abundance, prac- titioners tend to rely on sub-features thereof, reducing the problem on single modality for the sake of simplicity.
   In this paper, we advocate for exploiting all the modalities naturally present in network data. As a first step, we observe that network data systematically exhibits a mixture of quantities (e.g., measurements), and entities (e.g., IP addresses, names, etc.). Whereas the former are generally well exploited, the latter are often underused or poorly represented (e.g., with one-hot encoding). We propose to systematically leverage state of the art embedding techniques to learn entity representations, whenever significant sequences of such entities are historically observed. Through two diverse use cases, we show that such entity encoding can benefit and naturally augment classic quantity-based features.},
   year={2022}

@@ -6,6 +6,8 @@ author_profile: true
 permalink: /publications/
 ---
 
+
+
 ##### 2022
 {% bibliography --query @*[year=2022] %}
 ##### 2021
@@ -32,3 +34,21 @@ permalink: /publications/
 {% bibliography --query @*[year=2011] %}
 ##### 2009
 {% bibliography --query @*[year=2009] %}
+
+
+
+
+<script>
+  dets=document.getElementsByName("det");
+  console.log(5+1);
+  for(let i = 0; i < dets.length; i++) {
+    dets[i].addEventListener("toggle", (event) => {
+      if (dets[i].open) {
+        dets[i].style.display = "block";
+      }
+      else{
+        dets[i].style.display = "inline-block"; 
+      }
+    });
+   }
+</script>
