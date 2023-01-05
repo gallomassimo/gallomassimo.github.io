@@ -1,1 +1,31 @@
-var store = []
+var store = [{
+        "title": "Paper accepted at SEC 2021",
+        "excerpt":"Our paper titled “FENXI: Fast in-network analytics”, will be presented at SEC 2021 2022. A preliminary version of the paper is available here. Full version here Abstract: Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited...","categories": [],
+        "tags": [],
+        "url": "/2021/04/03/SEC2021.html",
+        "teaser": null
+      },{
+        "title": "Hiring at Huawei Paris, Fall 2021",
+        "excerpt":"My group has an opening for a permanent researcher position: The Network Measurements research team of the Mathematical and Algorithmic Sciences Lab, is looking for candidates for a permanent research position on performance analysis, advanced data structure and network programmability to be applied in the context of Network measurements. The...","categories": [],
+        "tags": [],
+        "url": "/2021/09/01/Hiring.html",
+        "teaser": null
+      },{
+        "title": "Paper accepted at INFOCOM 2022",
+        "excerpt":"Our paper titled “Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching”, will be presented at INFOCOM 2022. A preliminary version of the paper is available here. Full version here Abstract: While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational...","categories": [],
+        "tags": [],
+        "url": "/2021/12/03/INFOCOM2022.html",
+        "teaser": null
+      },{
+        "title": "Paper accepted at HotNets 2022",
+        "excerpt":"Our paper titled “Towards a systematic multi-modal representation learning for network data” has been accepted at HotNets 2022 Abstract: Learning the right representations from complex input data is the key ability of successful machine learning (ML) models. The latter are often tailored to a specific data modality. For example, recurrent...","categories": [],
+        "tags": [],
+        "url": "/2022/09/21/HotNets.html",
+        "teaser": null
+      },{
+        "title": "Prelimary work on learned data structures presented at Conext SW 2022",
+        "excerpt":"Our abstract titled “Learned data structures for per-flow measurements” has been presented at Conext Student Workshop 2022 Abstract: This work presents a generic framework that exploits learning to improve the quality of network measurements. The main idea is to reuse measures collected by the network monitoring tasks to train an...","categories": [],
+        "tags": [],
+        "url": "/2022/12/06/ConextSW.html",
+        "teaser": null
+      }]

@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Massimo Gallo's personal website">
 <meta property="og:title" content="Massimo Gallo’s personal website">
-<meta property="og:url" content="http://localhost:4000/_pages/about.html">
+<meta property="og:url" content="/_pages/about.html">
 
 
   <meta property="og:description" content="Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019.  He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France  in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He  spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking  and High-speed packet processing. His work has been published in several top tier international  conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on  Networking) and led to several patents. His main research interests are on the performance  evaluation, simulation, design and experimentation on networked systems with particular focus on  Programmable networks, Traffic generation, and Network Monitoring.">
@@ -37,7 +37,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/_pages/about.html">
+<link rel="canonical" href="/_pages/about.html">
 
 
 
@@ -48,7 +48,7 @@
     
       "@type": "Person",
       "name": null,
-      "url": "http://localhost:4000/"
+      "url": "/"
     
   }
 </script>
@@ -118,7 +118,13 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/">Publications</a>
+              <a href="/#-bio">Bio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#-experience">Experience</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#-education">Education</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#-publications">Publications</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -144,13 +150,8 @@
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
-    <label class="sr-only" for="search">
-      Enter your search term...
-    </label>
-    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-  </form>
-  <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
 
       </div>
     
@@ -190,7 +191,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Massimo Gallo's personal website. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Massimo Gallo's personal website. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -199,11 +200,68 @@
   <script src="/assets/js/main.min.js"></script>
 
 
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
 
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '',
+  apiKey: '',
+  indexName: '',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
 
-<script src="/assets/js/lunr/lunr.min.js"></script>
-<script src="/assets/js/lunr/lunr-store.js"></script>
-<script src="/assets/js/lunr/lunr-en.js"></script>
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
 
 
 
