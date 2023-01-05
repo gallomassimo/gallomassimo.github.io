@@ -4,6 +4,7 @@ title: "Home"
 layout: single
 author_profile: true
 classes: wide
+search: true
 ---
 
 ### <i class="fas fa-newspaper"></i> News
@@ -33,3 +34,38 @@ Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris si
 Design and Evaluation"
 * **2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks** Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements
 * **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
+
+
+### <i class="fas fa-newspaper"> Publications
+
+{% bibliography --query @*[year=2022] %}
+{% bibliography --query @*[year=2021] %}
+{% bibliography --query @*[year=2020] %}
+{% bibliography --query @*[year=2019] %}
+{% bibliography --query @*[year=2018] %}
+{% bibliography --query @*[year=2017] %}
+{% bibliography --query @*[year=2016] %}
+{% bibliography --query @*[year=2015] %}
+{% bibliography --query @*[year=2014] %}
+{% bibliography --query @*[year=2013] %}
+{% bibliography --query @*[year=2012] %}
+{% bibliography --query @*[year=2011] %}
+{% bibliography --query @*[year=2009] %}
+
+
+
+
+<script>
+  dets=document.getElementsByName("det");
+  console.log(5+1);
+  for(let i = 0; i < dets.length; i++) {
+    dets[i].addEventListener("toggle", (event) => {
+      if (dets[i].open) {
+        dets[i].style.display = "block";
+      }
+      else{
+        dets[i].style.display = "inline-block"; 
+      }
+    });
+   }
+</script>

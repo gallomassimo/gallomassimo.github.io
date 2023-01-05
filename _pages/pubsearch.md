@@ -3,7 +3,7 @@ title: "Publications"
 layout: single
 classes: wide
 author_profile: true
-permalink: /publications/
+permalink: /pubsearch/
 ---
 
 
