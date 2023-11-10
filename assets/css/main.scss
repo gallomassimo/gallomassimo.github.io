@@ -6,3 +6,12 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.bibliography{
+    list-style-type:none;
+    font-size: 26px;
+}
+
+.sidebar.sticky{
+    opacity: 1;
+}

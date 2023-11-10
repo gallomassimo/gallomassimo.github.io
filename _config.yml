@@ -40,6 +40,11 @@ theme: minimal-mistakes-jekyll
 # paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 search_provider: "algolia"
+algolia:
+  application_id         : "9NPKHHHGRU"
+  index_name             : "dev_minimal-mistakes"
+  search_only_api_key    : "55e8c3258b7f64a5c22966eb31525e04"
+  powered_by             : true
 
 include:
   - _pages

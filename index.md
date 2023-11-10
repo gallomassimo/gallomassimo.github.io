@@ -7,16 +7,21 @@ classes: wide
 search: true
 ---
 
+### <i class="fas fa-address-card"> Bio
+
+Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. 
+
+His main research interests are on the performance evaluation, simulation, design and experimentation on networked systems with particular focus on Programmable networks, Traffic generation, and Network Monitoring.
+
 ### <i class="fas fa-newspaper"></i> News
 
-<ul>
+<ul  style="list-style-type:none;">
 {% for post in site.posts limit:5 %}
   <li> <a href="{{ post.url }}"><b>{{ post.date | date: "%Y-%m" }}:</b> {{ post.title }}</a> </li>
 {% endfor %}
 </ul>
 
-### <i class="fas fa-address-card"> Bio
-Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. His main research interests are on the performance evaluation, simulation, design and experimentation on networked systems with particular focus on Programmable networks, Traffic generation, and Network Monitoring.
+
 
 ### <i class="fas fa-briefcase"> Experience
 
@@ -38,22 +43,7 @@ Design and Evaluation"
 
 ### <i class="fas fa-newspaper"> Publications
 
-{% bibliography --query @*[year=2022] %}
-{% bibliography --query @*[year=2021] %}
-{% bibliography --query @*[year=2020] %}
-{% bibliography --query @*[year=2019] %}
-{% bibliography --query @*[year=2018] %}
-{% bibliography --query @*[year=2017] %}
-{% bibliography --query @*[year=2016] %}
-{% bibliography --query @*[year=2015] %}
-{% bibliography --query @*[year=2014] %}
-{% bibliography --query @*[year=2013] %}
-{% bibliography --query @*[year=2012] %}
-{% bibliography --query @*[year=2011] %}
-{% bibliography --query @*[year=2009] %}
-
-
-
+{% bibliography %}
 
 <script>
   dets=document.getElementsByName("det");
