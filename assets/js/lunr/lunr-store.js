@@ -29,7 +29,7 @@ var store = [{
         "url": "/2022/12/06/ConextSW.html",
         "teaser": null
       },{
-        "title": "Prelimary work on generative data augmentation for traffic classification accepted at Conext SW 2022",
+        "title": "Prelimary work on generative data augmentation for traffic classification accepted at Conext SW 2023",
         "excerpt":"Our abstract titled “Toward Generative Data Augmentation for Traffic Classification” will be presented at Conext Student Workshop 2023 Congrats to Chao Wang. Abstract: Data Augmentation (DA)—augmenting training data with synthetic samples—is wildly adopted in Computer Vision (CV) to improve models performance. Conversely, DA has not been yet popularized in networking...","categories": [],
         "tags": [],
         "url": "/2023/10/16/ConextSW.html",
