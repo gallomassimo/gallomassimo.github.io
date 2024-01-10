@@ -433,9 +433,30 @@
 @inproceedings{monterubbiano2022learnedDS,
   title={Learned data structures for per-flow measurements},
   author = {A. Monterubbiano, and R., Azorin and G., Castellano and M., Gallo and S., Pontarelli},
-  booktitle={In Proc. of Conext Student Workshop},
+  booktitle={In Proc. of CoNEXT Student Workshop},
   howpublished = {/docs/2022ConextSW.pdf},
   abstract={This work presents a generic framework that exploits learning to improve the quality of network measurements. The main idea is to reuse measures collected by the network monitoring tasks to train an ML model that learns some per-flow characteristics and improves the measurement quality re-configuring the memory according to the learned information. We applied this idea to two different monitoring tasks, we identify the main issues related to this approach and we present some preliminary results.},
   year={2022},
   series={CoNEXT-SW 22}
+}
+
+@article{monterubbiano2023SPADA,
+  author = {Monterubbiano, Andrea and Azorin, Raphael and Castellano, Gabriele and Gallo, Massimo, and Rossi, Dario and Pontarelli, Salvatore},
+  title = {SPADA: A Sparse Approximate Data Structure representation for lightweight per-flow monitoring},
+  year = {2023},
+  journal = {Proceedings of the ACM on Networking},
+  abstract = {Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e., sparse, thus wasting a significant amount of memory. This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2× to 11× memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.},
+  howpublished = {/docs/2023Conext.pdf},
+  topic = {coda},
+  series = {CoNEXT 23}
+}
+
+@inproceedings{wangchao2023DA4TC,
+  author = {Wang, Chao and Finamore, Alessandro and Michiardi, Pietro and Gallo, Massimo and Rossi, Dario},
+  title = {Toward Generative Data Augmentation for Traffic Classification},
+  year = {2023},
+  abstract = {Data Augmentation (DA)--augmenting training data with synthetic samples--is wildly adopted in Computer Vision (CV) to improve models performance. Conversely, DA has not been yet popularized in networking use cases, including Traffic Classification (TC). In this work, we present a preliminary study of 14 hand-crafted DAs applied on the MIRAGE19 dataset. Our results (i) show that DA can reap benefits previously unexplored in TC and (ii) foster a research agenda on the use of generative models to automate DA design.},
+  booktitle = {In Proc. of CoNEXT Student Workshop},
+   howpublished = {/docs/2023ConextSW.pdf},
+  series = {CoNEXT-SW 23}
 }
