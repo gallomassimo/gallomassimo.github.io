@@ -40,4 +40,10 @@ var store = [{
         "tags": [],
         "url": "/2023/10/18/Conext.html",
         "teaser": null
+      },{
+        "title": "Data Augmentation for Traffic Classification accepted at PAM 2024",
+        "excerpt":"Our abstract titled “Data Augmentation for Traffic Classification” will be presented at PAM 2024 Congrats to Wang Chao and other Co-authors. Abstract: Abstract. Data Augmentation (DA)—enriching training data by adding synthetic samples—is a technique widely adopted in the Computer Vision (CV) and Natural Language Processing (NLP) domains to improve models...","categories": [],
+        "tags": [],
+        "url": "/2023/12/13/PAM.html",
+        "teaser": null
       }]

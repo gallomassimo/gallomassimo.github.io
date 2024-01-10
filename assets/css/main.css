@@ -1280,3 +1280,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .bibliography { list-style-type: none; font-size: 26px; }
 
 .sidebar.sticky { opacity: 1; }
+
+html { background-color: #010149; }
+
+.greedy-nav { background-color: #010149; }
