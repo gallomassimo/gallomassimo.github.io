@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "SPADA accepted at Conext 2023",
-        "excerpt":"Our abstract titled “SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring” will be presented at Conext 2023 Congrats to the team, especially Andrea, Raphael, and Gabriele. Abstract: Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However,...","categories": [],
+        "excerpt":"Our paper titled “SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring” will be presented at Conext 2023 Congrats to the team, especially Andrea, Raphael, and Gabriele. Abstract: Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However,...","categories": [],
         "tags": [],
         "url": "/2023/10/18/Conext.html",
         "teaser": null
@@ -45,5 +45,11 @@ var store = [{
         "excerpt":"Our abstract titled “Data Augmentation for Traffic Classification” will be presented at PAM 2024 Congrats to Wang Chao and other Co-authors. Abstract: Abstract. Data Augmentation (DA)—enriching training data by adding synthetic samples—is a technique widely adopted in the Computer Vision (CV) and Natural Language Processing (NLP) domains to improve models...","categories": [],
         "tags": [],
         "url": "/2023/12/13/PAM.html",
+        "teaser": null
+      },{
+        "title": "SPADA accepted at Conext 2023",
+        "excerpt":"Our paper titled “Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane” will be presented at Conext 2024 Congrats to the team, especially Raphael, Andrea, and Gabriele. Abstract: Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a...","categories": [],
+        "tags": [],
+        "url": "/2024/01/15/Conext.html",
         "teaser": null
       }]

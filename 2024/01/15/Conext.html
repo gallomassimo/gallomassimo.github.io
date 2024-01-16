@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>SPADA accepted at Conext 2023 - Massimo Gallo</title>
-<meta name="description" content="Our paper titled “SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring” will be presented at Conext 2023  Congrats to the team, especially Andrea, Raphael, and Gabriele.  Abstract: Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e., sparse, thus wasting a significant amount of memory.  This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2× to 11× memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.">
+<meta name="description" content="Our paper titled “Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane” will be presented at Conext 2024  Congrats to the team, especially Raphael, Andrea, and Gabriele.  Abstract: Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a wide range of use cases. However, implementing an ML-enabled system is a challenging task due to network devices limited resources. Previous works have demonstrated the feasibility of running simple ML models in the data plane, yet their integration in a practical end-to-end system is not trivial. Additional challenges in resources management and model maintenance need to be addressed to ensure the network task(s) performance improvement justifies the system overhead. In this work, we propose DUMBO, a versatile end-to-end system to generate and exploit flow size hints at line rate.Our system seamlessly integrates and maintains a simple ML model that offers early coarse-grain flow size prediction in the data plane. We evaluate the proposed system on flow scheduling, per-flow packet inter-arrival time distribution, and flow size estimation using real traffic traces, and perform experiments using an FPGA prototype running on an AMD(R)-Xilinx(R) Alveo U280 SmartNIC. Our results show that DUMBO outperforms traditional state-of-the-art approaches by equipping network devices data planes with a lightweight ML model.">
 
 
   <meta name="author" content=" ">
@@ -23,25 +23,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Massimo Gallo">
 <meta property="og:title" content="SPADA accepted at Conext 2023">
-<meta property="og:url" content="/2023/10/18/Conext.html">
+<meta property="og:url" content="/2024/01/15/Conext.html">
 
 
-  <meta property="og:description" content="Our paper titled “SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring” will be presented at Conext 2023  Congrats to the team, especially Andrea, Raphael, and Gabriele.  Abstract: Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e., sparse, thus wasting a significant amount of memory.  This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2× to 11× memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2023-10-18T00:00:00+00:00">
+  <meta property="og:description" content="Our paper titled “Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane” will be presented at Conext 2024  Congrats to the team, especially Raphael, Andrea, and Gabriele.  Abstract: Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a wide range of use cases. However, implementing an ML-enabled system is a challenging task due to network devices limited resources. Previous works have demonstrated the feasibility of running simple ML models in the data plane, yet their integration in a practical end-to-end system is not trivial. Additional challenges in resources management and model maintenance need to be addressed to ensure the network task(s) performance improvement justifies the system overhead. In this work, we propose DUMBO, a versatile end-to-end system to generate and exploit flow size hints at line rate.Our system seamlessly integrates and maintains a simple ML model that offers early coarse-grain flow size prediction in the data plane. We evaluate the proposed system on flow scheduling, per-flow packet inter-arrival time distribution, and flow size estimation using real traffic traces, and perform experiments using an FPGA prototype running on an AMD(R)-Xilinx(R) Alveo U280 SmartNIC. Our results show that DUMBO outperforms traditional state-of-the-art approaches by equipping network devices data planes with a lightweight ML model.">
 
 
 
 
 
 
-<link rel="canonical" href="/2023/10/18/Conext.html">
+
+  <meta property="article:published_time" content="2024-01-15T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="/2024/01/15/Conext.html">
 
 
 
@@ -281,15 +281,15 @@
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="SPADA accepted at Conext 2023">
-    <meta itemprop="description" content="Our paper titled “SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring” will be presented at Conext 2023Congrats to the team, especially Andrea, Raphael, and Gabriele.Abstract: Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e., sparse, thus wasting a significant amount of memory.This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2× to 11× memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.">
-    <meta itemprop="datePublished" content="2023-10-18T00:00:00+00:00">
+    <meta itemprop="description" content="Our paper titled “Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane” will be presented at Conext 2024Congrats to the team, especially Raphael, Andrea, and Gabriele.Abstract: Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a wide range of use cases. However, implementing an ML-enabled system is a challenging task due to network devices limited resources. Previous works have demonstrated the feasibility of running simple ML models in the data plane, yet their integration in a practical end-to-end system is not trivial. Additional challenges in resources management and model maintenance need to be addressed to ensure the network task(s) performance improvement justifies the system overhead. In this work, we propose DUMBO, a versatile end-to-end system to generate and exploit flow size hints at line rate.Our system seamlessly integrates and maintains a simple ML model that offers early coarse-grain flow size prediction in the data plane. We evaluate the proposed system on flow scheduling, per-flow packet inter-arrival time distribution, and flow size estimation using real traffic traces, and perform experiments using an FPGA prototype running on an AMD(R)-Xilinx(R) Alveo U280 SmartNIC. Our results show that DUMBO outperforms traditional state-of-the-art approaches by equipping network devices data planes with a lightweight ML model.">
+    <meta itemprop="datePublished" content="2024-01-15T00:00:00+00:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="/2023/10/18/Conext.html" class="u-url" itemprop="url">SPADA accepted at Conext 2023
+            <a href="/2024/01/15/Conext.html" class="u-url" itemprop="url">SPADA accepted at Conext 2023
 </a>
           </h1>
           
@@ -300,13 +300,11 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Our paper titled <em>“SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring”</em> will be presented at Conext 2023</p>
+        <p>Our paper titled <em>“Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane”</em> will be presented at Conext 2024</p>
 
-<p>Congrats to the team, especially Andrea, Raphael, and Gabriele.</p>
+<p>Congrats to the team, especially Raphael, Andrea, and Gabriele.</p>
 
-<p><em>Abstract:</em> Accurate per-flow monitoring is critical for precise network diagnosis, performance analysis, and network operation and management in general. However, the limited amount of memory available on modern programmable devices and the large number of active flows force practitioners to monitor only the most relevant flows with approximate data structures, limiting their view of network traffic. We argue that, due to the skewed nature of network traffic, such data structures are, in practice, heavily underutilized, i.e., sparse, thus wasting a significant amount of memory.</p>
-
-<p>This paper proposes a Sparse Approximate Data Structure (SPADA) representation that leverages sparsity to reduce the memory footprint of per-flow monitoring systems in the data plane while preserving their original accuracy. SPADA representation can be integrated into a generic per-flow monitoring system and is suitable for several measurement use cases. We prototype SPADA in P4 for a commercial FPGA target and test our approach with a custom simulator that we make publicly available, on four real network traces over three different monitoring tasks. Our results show that SPADA achieves 2× to 11× memory footprint reduction with respect to the state-of-the-art while maintaining the same accuracy, or even improving it.</p>
+<p><em>Abstract:</em> Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a wide range of use cases. However, implementing an ML-enabled system is a challenging task due to network devices limited resources. Previous works have demonstrated the feasibility of running simple ML models in the data plane, yet their integration in a practical end-to-end system is not trivial. Additional challenges in resources management and model maintenance need to be addressed to ensure the network task(s) performance improvement justifies the system overhead. In this work, we propose DUMBO, a versatile end-to-end system to generate and exploit flow size hints at line rate.Our system seamlessly integrates and maintains a simple ML model that offers early coarse-grain flow size prediction in the data plane. We evaluate the proposed system on flow scheduling, per-flow packet inter-arrival time distribution, and flow size estimation using real traffic traces, and perform experiments using an FPGA prototype running on an AMD(R)-Xilinx(R) Alveo U280 SmartNIC. Our results show that DUMBO outperforms traditional state-of-the-art approaches by equipping network devices data planes with a lightweight ML model.</p>
 
         
       </section>
@@ -318,7 +316,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-10-18T00:00:00+00:00">October 18, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-15T00:00:00+00:00">January 15, 2024</time></p>
 
       </footer>
 
@@ -327,12 +325,11 @@
       
   <nav class="pagination">
     
-      <a href="/2023/10/16/ConextSW.html" class="pagination--pager" title="Prelimary work on generative data augmentation for traffic classification accepted at Conext SW 2023
+      <a href="/2023/12/13/PAM.html" class="pagination--pager" title="Data Augmentation for Traffic Classification accepted at PAM 2024
 ">Previous</a>
     
     
-      <a href="/2023/12/13/PAM.html" class="pagination--pager" title="Data Augmentation for Traffic Classification accepted at PAM 2024
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
