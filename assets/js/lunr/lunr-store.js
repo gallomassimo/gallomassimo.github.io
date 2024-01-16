@@ -47,7 +47,7 @@ var store = [{
         "url": "/2023/12/13/PAM.html",
         "teaser": null
       },{
-        "title": "SPADA accepted at Conext 2023",
+        "title": "DUMBO accepted at Conext 2024",
         "excerpt":"Our paper titled “Taming the Elephants: Affordable Flow Length Prediction inthe Data Plane” will be presented at Conext 2024 Congrats to the team, especially Raphael, Andrea, and Gabriele. Abstract: Machine Learning (ML) shows promising potential for enhancing networking tasks. In particular, early flow size prediction would be beneficial for a...","categories": [],
         "tags": [],
         "url": "/2024/01/15/Conext.html",
