@@ -49,6 +49,8 @@ algolia:
 include:
   - _pages
 
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -97,7 +99,6 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/massimo-gallo-782b3b38/"
-
 
 footer:
   links:
