@@ -52,10 +52,4 @@ var store = [{
         "tags": [],
         "url": "/2024/01/15/Conext.html",
         "teaser": null
-      },{
-        "title": "PhD student Hiring at Huawei Paris, Fall 2021",
-        "excerpt":"My group has an opening for a PhD Student: The fully funded PhD position at Huawei in Paris, and in collaboration with EURECOM, offers an exciting opportunity to work on enhancing the efficiency of AI platforms through full observability. Generative Artificial Intelligence (GenAI) has emerged as a transformative technology, with...","categories": [],
-        "tags": [],
-        "url": "/2024/06/26/Hiring.html",
-        "teaser": null
       }]
