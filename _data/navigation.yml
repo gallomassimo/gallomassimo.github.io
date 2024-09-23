@@ -2,11 +2,11 @@ main:
   - title: "Home"
     url: /
   - title: "Bio"
-    url: /#-bio
+    url: /#bio
   - title: "Experience"
-    url: /#-experience
+    url: /#experience
   - title: "Education"
-    url: /#-education
+    url: /#education
   - title: "Publications"
-    url: /#-publications
+    url: /#publications
 

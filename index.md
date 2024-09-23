@@ -16,13 +16,13 @@ search: true
 {% endfor %}
 </ul>
 
-### <i class="fas fa-address-card" style="color: #0760e6"> Bio </i>
+### <i class="fas fa-address-card" style="color: #0760e6">Bio</i>
 
 Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. 
 
 His main research interests are on the performance evaluation, simulation, design and experimentation on networked systems with particular focus on Programmable networks, Traffic generation, and Network Monitoring.
 
-### <i class="fas fa-briefcase" style="color: #0760e6"> Experience </i>
+### <i class="fas fa-briefcase" style="color: #0760e6">Experience</i>
 
 * **2019 to \- Principal researcher, Huawei, Paris (FR).** Network monitoring (team leader since 2021); 
 * **2013 to 2019 Research Engineer, Nokia Bell Labs, Villarceaux (FR).** Network Protocol and system research (2017-2019); Secure Cloud Networking (2015-2017); Novel Networking Protocols and Paradigms (2013-2015)
@@ -32,7 +32,7 @@ His main research interests are on the performance evaluation, simulation, desig
 * **2008 Research Intern, Istituto Superiore Mario Boella, Turin (IT).** Topic: peer-to-peer (P2P) Supervisor: Prof. Marco Mellia
 * **2006 Research Intern, CSP Piemonte, Turin (IT).** Topic: Mesh networks Supervisor: Prof. Claudio Casetti
 
-### <i class="fas fa-user-graduate" style="color: #0760e6"> Education </i>
+### <i class="fas fa-user-graduate" style="color: #0760e6">Education</i>
 
 * **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
 Design and Evaluation"
@@ -40,7 +40,7 @@ Design and Evaluation"
 * **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
 
 
-### <i class="fas fa-newspaper" style="color: #0760e6"> Publications </i>
+### <i class="fas fa-newspaper" style="color: #0760e6">Publications</i>
 
 {% bibliography %}
 
