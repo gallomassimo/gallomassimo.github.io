@@ -18,7 +18,7 @@ search: true
 
 ### <i class="fas fa-address-card" style="color: #0760e6">Bio</i>
 
-Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. 
+Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. He is also an active member of the community and served as PC member to USENIX ATC ('24,'25), IEE/IFIP TMA ('23,'24), and reviewer to several jopurnals (Transactions on Networking, Transactions on Network and Service Management, Computer Networks, etc).
 
 His main research interests are on the performance evaluation, simulation, design and experimentation on networked systems with particular focus on Programmable networks, Traffic generation, and Network Monitoring.
 

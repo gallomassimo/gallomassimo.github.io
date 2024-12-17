@@ -1,5 +1,5 @@
 ---
-title:  "Invited to the ATC 2024 program commitee"
+title:  "Invited to the USENIX ATC 2024 program commitee"
 search: true
 author_profile: true
 classes: wide
