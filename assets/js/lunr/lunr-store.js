@@ -29,6 +29,12 @@ var store = [{
         "url": "/2022/12/06/ConextSW.html",
         "teaser": null
       },{
+        "title": "Invited to the IEEE/IFIP TMA 2023 program commitee",
+        "excerpt":"Looking forward to review exciting measurement research.  ","categories": [],
+        "tags": [],
+        "url": "/2023/01/18/TMA-PC.html",
+        "teaser": null
+      },{
         "title": "Prelimary work on generative data augmentation for traffic classification accepted at Conext SW 2023",
         "excerpt":"Our abstract titled “Toward Generative Data Augmentation for Traffic Classification” will be presented at Conext Student Workshop 2023 Congrats to Chao Wang. Abstract: Data Augmentation (DA)—augmenting training data with synthetic samples—is wildly adopted in Computer Vision (CV) to improve models performance. Conversely, DA has not been yet popularized in networking...","categories": [],
         "tags": [],
@@ -41,10 +47,22 @@ var store = [{
         "url": "/2023/10/18/Conext.html",
         "teaser": null
       },{
+        "title": "Invited to the IEEE/IFIP TMA 2024 program commitee",
+        "excerpt":"Looking forward to review exciting measurements research.  ","categories": [],
+        "tags": [],
+        "url": "/2023/12/05/TMA-PC.html",
+        "teaser": null
+      },{
         "title": "Data Augmentation for Traffic Classification accepted at PAM 2024",
         "excerpt":"Our abstract titled “Data Augmentation for Traffic Classification” will be presented at PAM 2024 Congrats to Wang Chao and other Co-authors. Abstract: Abstract. Data Augmentation (DA)—enriching training data by adding synthetic samples—is a technique widely adopted in the Computer Vision (CV) and Natural Language Processing (NLP) domains to improve models...","categories": [],
         "tags": [],
         "url": "/2023/12/13/PAM.html",
+        "teaser": null
+      },{
+        "title": "Invited to the USENIX ATC 2024 program commitee",
+        "excerpt":"Looking forward to review exciting system research.  ","categories": [],
+        "tags": [],
+        "url": "/2023/12/24/USENIX-ATC-PC.html",
         "teaser": null
       },{
         "title": "DUMBO accepted at Conext 2024",
@@ -57,5 +75,11 @@ var store = [{
         "excerpt":"My group has an opening for a PhD Student: The fully funded PhD position at Huawei in Paris, and in collaboration with EURECOM, offers an exciting opportunity to work on enhancing the efficiency of AI platforms through full observability. Generative Artificial Intelligence (GenAI) has emerged as a transformative technology, with...","categories": [],
         "tags": [],
         "url": "/2024/07/05/Hiring.html",
+        "teaser": null
+      },{
+        "title": "Invited to the USENIX ATC 2025 program commitee",
+        "excerpt":"Looking forward to review exciting system research.  ","categories": [],
+        "tags": [],
+        "url": "/2024/10/07/USENIX-ATC-PC.html",
         "teaser": null
       }]
