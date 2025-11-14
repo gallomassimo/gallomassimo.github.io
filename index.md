@@ -8,7 +8,7 @@ author_profile: true
 classes: wide
 search: true
 ---
-### <i class="fas fa-newspaper" style="color: #0760e6"> News </i>
+### <i class="fas fa-newspaper" style="color: #0760e6">  News </i>
 
 <ul  style="list-style-type:none;">
 {% for post in site.posts limit:5 %}
@@ -16,13 +16,13 @@ search: true
 {% endfor %}
 </ul>
 
-### <i class="fas fa-address-card" style="color: #0760e6">Bio</i>
+### <i class="fas fa-address-card" style="color: #0760e6">  Bio</i>
 
 Massimo Gallo is a Principal Engineer at Huawei Technologies Co.,Ltd in Paris since 2019. He obtained the Ph.D. in Networks and computer science from Telecom ParisTech, Paris, France in 2012, performing his graduate research at Orange Labs, France Telecom, Paris, France. He spent six years as a researcher at BellLabs, Nokia working on Information Centric Networking and High-speed packet processing. His work has been published in several top tier international conferences (e.g., IEEE ICNP, Usenix ATC, ACM CoNEXT) and journals (e.g., Transaction on Networking) and led to several patents. He is also an active member of the community and served as PC member to USENIX ATC ('24,'25), IEE/IFIP TMA ('23,'24), and reviewer to several jopurnals (Transactions on Networking, Transactions on Network and Service Management, Computer Networks, etc).
 
 His main research interests are on the performance evaluation, simulation, design and experimentation on networked systems with particular focus on Programmable networks, Traffic generation, and Network Monitoring.
 
-### <i class="fas fa-briefcase" style="color: #0760e6">Experience</i>
+### <i class="fas fa-briefcase" style="color: #0760e6">  Experience</i>
 
 * **2019 to \- Principal researcher, Huawei, Paris (FR).** Network monitoring (team leader since 2021); 
 * **2013 to 2019 Research Engineer, Nokia Bell Labs, Villarceaux (FR).** Network Protocol and system research (2017-2019); Secure Cloud Networking (2015-2017); Novel Networking Protocols and Paradigms (2013-2015)
@@ -32,15 +32,26 @@ His main research interests are on the performance evaluation, simulation, desig
 * **2008 Research Intern, Istituto Superiore Mario Boella, Turin (IT).** Topic: peer-to-peer (P2P) Supervisor: Prof. Marco Mellia
 * **2006 Research Intern, CSP Piemonte, Turin (IT).** Topic: Mesh networks Supervisor: Prof. Claudio Casetti
 
-### <i class="fas fa-user-graduate" style="color: #0760e6">Education</i>
+### <i class="fas fa-user-graduate" style="color: #0760e6">  Education</i>
 
 * **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
 Design and Evaluation"
 * **2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks** Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements
 * **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
 
+### <i class="fas fa-hand-holding" style="color: #0760e6">  Professional service</i>
 
-### <i class="fas fa-newspaper" style="color: #0760e6">Publications</i>
+* **Program Committees**
+  * **Usenix ATC** - Annual Technical Conference (2025, 2024)
+  * **PACMNET** - Proceedings of the ACM on Networking - PACMNET, CoNEXT (2026)
+  * **IEEE/IFIP TMA** - Network Traffic Measurement and Analysis Conference (2024)
+  * **ACM CoNEXT INET4AI** Workshop (2025) 
+* **Journal Reviews**
+  * **IEEE Transaction on Networking**
+  * **IEEE Transactions on Network and Service Management**
+  * **Elsevier Computer Networks**
+
+### <i class="fas fa-newspaper" style="color: #0760e6">  Publications</i>
 
 {% bibliography %}
 
