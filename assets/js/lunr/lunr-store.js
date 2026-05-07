@@ -100,4 +100,10 @@ var store = [{
         "tags": [],
         "url": "/2025/09/24/CONEXT-PC.html",
         "teaser": null
+      },{
+        "title": "Chainscope accepted at PACMNet (CoNEXT) 2026.",
+        "excerpt":"Our paper titled “ChainScope: Balancing Accuracy and Overhead in Non-intrusive Distributed Tracing of Microservices “ will be presented at Conext 2026 Congrats to the team, especially Ruipeng, and Gabriele. Abstract: Distributed tracing is essential for monitoring and debugging services deployed on top of microservice architectures. However, existing solutions face a...","categories": [],
+        "tags": [],
+        "url": "/2026/03/27/Conext.html",
+        "teaser": null
       }]
