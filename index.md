@@ -32,12 +32,12 @@ His main research interests are on the performance evaluation, simulation, desig
 * **2008 Research Intern, Istituto Superiore Mario Boella, Turin (IT).** Topic: peer-to-peer (P2P) Supervisor: Prof. Marco Mellia
 * **2006 Research Intern, CSP Piemonte, Turin (IT).** Topic: Mesh networks Supervisor: Prof. Claudio Casetti
 
-### <i class="fas fa-user-graduate" style="color: #0760e6">  Education</i>
-
-* **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
-Design and Evaluation"
-* **2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks** Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements
-* **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
+### <i class="fas fa-code" style="color: #0760e6">  Software</i>
+* **[SimAI fork](https://github.com/NetMeasurements-Team/SimAI)** contributor, supervisor
+* **[DUMBO](https://github.com/cpt-harlock/DUMBO)** supervisor
+* **[SPADA](https://github.com/cpt-harlock/SPADA)** supervisor
+* **[ClickNF](https://github.com/nokia/ClickNF)** contributor, supervisor
+ 
 
 ### <i class="fas fa-hand-holding" style="color: #0760e6">  Professional service</i>
 
@@ -50,6 +50,13 @@ Design and Evaluation"
   * **IEEE Transaction on Networking**
   * **IEEE Transactions on Network and Service Management**
   * **Elsevier Computer Networks**
+
+### <i class="fas fa-user-graduate" style="color: #0760e6">  Education</i>
+
+* **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
+Design and Evaluation"
+* **2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks** Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements
+* **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
 
 ### <i class="fas fa-newspaper" style="color: #0760e6">  Publications</i>
 

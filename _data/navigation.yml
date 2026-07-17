@@ -4,9 +4,9 @@ main:
   - title: "Bio"
     url: /#bio
   - title: "Experience"
-    url: /#experience
+    url: /#--experience
   - title: "Education"
-    url: /#education
+    url: /#--education
   - title: "Publications"
-    url: /#publications
+    url: /#--publications
 
