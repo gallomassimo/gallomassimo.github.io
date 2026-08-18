@@ -106,4 +106,10 @@ var store = [{
         "tags": [],
         "url": "/2026/03/27/Conext.html",
         "teaser": null
+      },{
+        "title": "AI/ML Workload Monitoring accepted at SIGCOMM 2026 Poster.",
+        "excerpt":"Our Poster titled ” Beyond Probabilistic Data Structures for AI/ML Workload Monitoring “ will be presented at the poster session in SIGCOMM 2026 Congrats to the team, especially Davide Palmiotti. Abstract: The massive scale of Large Language Model (LLM) training requires tracking complex network flows across thousands of GPUs. Modern...","categories": [],
+        "tags": [],
+        "url": "/2026/06/30/Sigcomm-poster.html",
+        "teaser": null
       }]
