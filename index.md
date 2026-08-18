@@ -33,11 +33,11 @@ His main research interests are on the performance evaluation, simulation, desig
 * **2006 Research Intern, CSP Piemonte, Turin (IT).** Topic: Mesh networks Supervisor: Prof. Claudio Casetti
 
 ### <i class="fas fa-code" style="color: #0760e6">  Software</i>
-* **[SimAI fork](https://github.com/NetMeasurements-Team/SimAI)** (C/C++) contributor, supervisor. Distributed AI training/inference simulation. 
-* **[DUMBO](https://github.com/cpt-harlock/DUMBO)** (Rust) supervisor. In-network ML classification for downstream task enhancement.
-* **[SPADA](https://github.com/cpt-harlock/SPADA)** (Rust) supervisor. Telemetry data structure for sparse data.
-* **[FloWatcher-DPDK](https://github.com/ztz1989/FloWatcher-DPDK)** (C) Supervisor. Software traffic monitor for DPDK.
-* **[ClickNF](https://github.com/nokia/ClickNF)** (C/C++) contributor, supervisor. Modular TCP implementation for click router.
+* **[SimAI fork](https://github.com/NetMeasurements-Team/SimAI)** (C/C++) *contributor, supervisor.* Distributed AI training/inference simulation. 
+* **[DUMBO](https://github.com/cpt-harlock/DUMBO)** (Rust) *Supervisor.* In-network ML classification for downstream task enhancement.
+* **[SPADA](https://github.com/cpt-harlock/SPADA)** (Rust) *Supervisor.* Telemetry data structure for sparse data.
+* **[FloWatcher-DPDK](https://github.com/ztz1989/FloWatcher-DPDK)** (C) *Supervisor.* Software traffic monitor for DPDK.
+* **[ClickNF](https://github.com/nokia/ClickNF)** (C/C++) *Contributor, supervisor.* Modular TCP implementation for click router.
  
 
 ### <i class="fas fa-hand-holding" style="color: #0760e6">  Professional service</i>
