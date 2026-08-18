@@ -33,10 +33,11 @@ His main research interests are on the performance evaluation, simulation, desig
 * **2006 Research Intern, CSP Piemonte, Turin (IT).** Topic: Mesh networks Supervisor: Prof. Claudio Casetti
 
 ### <i class="fas fa-code" style="color: #0760e6">  Software</i>
-* **[SimAI fork](https://github.com/NetMeasurements-Team/SimAI)** contributor, supervisor
-* **[DUMBO](https://github.com/cpt-harlock/DUMBO)** supervisor
-* **[SPADA](https://github.com/cpt-harlock/SPADA)** supervisor
-* **[ClickNF](https://github.com/nokia/ClickNF)** contributor, supervisor
+* **[SimAI fork](https://github.com/NetMeasurements-Team/SimAI)** (C/C++) contributor, supervisor. Distributed AI training/inference simulation. 
+* **[DUMBO](https://github.com/cpt-harlock/DUMBO)** (Rust) supervisor. In-network ML classification for downstream task enhancement.
+* **[SPADA](https://github.com/cpt-harlock/SPADA)** (Rust) supervisor. Telemetry data structure for sparse data.
+* **[FloWatcher-DPDK](https://github.com/ztz1989/FloWatcher-DPDK)** (C) Supervisor. Software traffic monitor for DPDK.
+* **[ClickNF](https://github.com/nokia/ClickNF)** (C/C++) contributor, supervisor. Modular TCP implementation for click router.
  
 
 ### <i class="fas fa-hand-holding" style="color: #0760e6">  Professional service</i>
@@ -44,8 +45,8 @@ His main research interests are on the performance evaluation, simulation, desig
 * **Program Committees**
   * **Usenix ATC** - Annual Technical Conference (2025, 2024)
   * **PACMNET** - Proceedings of the ACM on Networking - PACMNET, CoNEXT (2026)
-  * **IEEE/IFIP TMA** - Network Traffic Measurement and Analysis Conference (2024)
-  * **ACM CoNEXT INET4AI** Workshop (2025) 
+  * **IEEE/IFIP TMA** - Network Traffic Measurement and Analysis Conference (2026, 2024)
+  * **ACM CoNEXT INET4AI** Workshop (2026, 2025) 
 * **Journal Reviews**
   * **IEEE Transaction on Networking**
   * **IEEE Transactions on Network and Service Management**
