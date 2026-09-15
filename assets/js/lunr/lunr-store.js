@@ -113,7 +113,7 @@ var store = [{
         "url": "/2026/06/30/Sigcomm-poster.html",
         "teaser": null
       },{
-        "title": "MCCL: Measurement-based Collective Communication Library.",
+        "title": "MCCL accepted at PACMNet (CoNEXT) 2026.",
         "excerpt":"Our Paper titled ” MCCL: Measurement-based Collective Communication Library “ will be presented at Conext 2026 Congrats to the team, especially Michele Ferrero. Abstract: Collective communication is a critical performance bottleneck in large-scale distributed training. Existing libraries and synthesis frameworks rely on static schedules optimized for peak network conditions. In...","categories": [],
         "tags": [],
         "url": "/2026/09/10/Conext.html",
