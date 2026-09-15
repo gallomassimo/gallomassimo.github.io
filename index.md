@@ -16,7 +16,7 @@ search: true
 {% endfor %}
 </ul>
 
-### <i class="fas fa-address-card" style="color: #0760e6">  Bio</i>
+### <i class="fas fa-address-card" style="color: #0760e6">  About</i>
 
 Next-generation computing and Artificial Intelligence create the greatest value when supported by robust, highly adaptable network infrastructure. Throughout my career, I have focused on building that foundation, working at the frontier of networking and computer science to design scalable systems that accelerate discovery and solve real-world bottlenecks. That mission drives my work in high-speed packet processing, distributed tracing, and optimizing the massive data-transfer demands of modern AI architectures.
 
