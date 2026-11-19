@@ -329,7 +329,7 @@
 
   <li> <a href="/2026/03/27/Conext.html"><b>2026-03:</b> Chainscope accepted at PACMNet (CoNEXT) 2026.</a> </li>
 
-  <li> <a href="/2025/09/24/CONEXT-PC.html"><b>2025-09:</b> Invited to the PACMNet (CoNEXT) 2026 program commitee</a> </li>
+  <li> <a href="/2025/09/24/CONEXT-PC.html"><b>2025-09:</b> Invited to the PACMNet (CoNEXT) 2026 program committee</a> </li>
 
   <li> <a href="/2025/01/27/ICLR.html"><b>2025-01:</b> Wang Chao's MITUNE paper accepted at ICLR 2025</a> </li>
 
@@ -387,7 +387,7 @@
 <h3 id="--education"><i class="fas fa-user-graduate" style="color: #0760e6">  Education</i></h3>
 
 <ul>
-  <li><strong>2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.</strong> Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
+  <li><strong>2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.</strong> Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Traffic and Resource Management in Content-Centric Networks:
 Design and Evaluation”</li>
   <li><strong>2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks</strong> Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements</li>
   <li><strong>2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks</strong></li>
@@ -455,7 +455,7 @@ Design and Evaluation”</li>
       <b> [SIGCOMM-Poster 26] </b>
       <div>
         
-          <button style="background-color: #555555; border-radius: 8px; "> <b> bookch</b></button>
+          <button style="background-color: #4CAF50; border-radius: 8px; "> <b> conference</b></button>
 
          
       </div>
@@ -471,6 +471,7 @@ Design and Evaluation”</li>
 
 
       
+        Proceedings of the ACM SIGCOMM 2026 Conference (POSTER) 2026
 
        
 
@@ -478,7 +479,7 @@ Design and Evaluation”</li>
 
         <details name="det" style="display: inline-block; ">
           <summary><i class="fa fa-book" aria-hidden="true"></i>  Bibtex</summary>
-          <div class="content"><p style="font-size: 1.1em"><pre style="display: inline-block;">@inbook{palmiotti2026perfecthashing,
+          <div class="content"><p style="font-size: 1.1em"><pre style="display: inline-block;">@inproceedings{palmiotti2026perfecthashing,
   author = {Palmiotti, Davide and Ferrero, Michele and Castellano, Gabriele and Gallo, Massimo and Antichi, Gianni},
   title = {POSTER: Beyond Probabilistic Data Structures for AI/ML Workload Monitoring},
   year = {2026},
@@ -546,7 +547,7 @@ Design and Evaluation”</li>
 
             <details name="det" style="display: inline-block;">
               <summary><i class="fa fa-comment" aria-hidden="true"></i> Abstract</summary>
-              <div class="content"><p style="font-size: 1.1em">Distributed tracing is essential for monitoring and debugging services deployed on top of microservice architectures. However, existing solutions face a fundamental trade-off between non-intrusiveness, language/protocol independence, overhead, and accuracy. We present ChainScope, a distributed tracing system that leverages eBPF to establish a universal tracing framework within the kernel. By implementing kernel-level context propagation, ChainScope enables trace-level sampling in a non-intrusive manner, effectively controlling overhead while maintaining high accuracy across diverse service processing models. Evaluation results show that ChainScope achieves better accuracy-overhead trade-offs than existing non-intrusive tracing approaches with up to 2.2× better accuracy, and 1.6× higher end-to-end service throughput in complex scenarios such as asynchronous processing and RPC (Remote Procedure Call) protocols. Furthermore, we demonstrate that ChainScope accurately identifies the root cause of long-tail latency in a realistic use case.</p></div>
+              <div class="content"><p style="font-size: 1.1em">Collective communication is a critical performance bottleneck in large-scale distributed training. Existing libraries and synthesis frameworks compute open-loop schedules once, assuming a static topology and peak link capacities. In production, however, persistent gray failures can silently degrade link throughput and latency for hours, causing pre-computed schedules to lose much of their efficiency during execution. In this paper, we present Measurement-based Collective Communication Library (MCCL), a collective communication library that closes the loop between runtime network measurement and dynamic schedule synthesis. MCCL passively measures GPU-to-GPU throughput, detects persistent degradation, re-synthesizes the affected communication-intensive schedules with warm-started synthesizers, and hot-swaps them without interrupting training. We validate the complete loop on a multi-node hardware prototype and use simulations to evaluate cluster-scale scenarios. In our experiments, MCCL incurs negligible overhead (&lt;2%) while maintaining high measurement accuracy (&lt;1.2% error) and low schedule hot-swap time (about 12 ms). Notably, under gray failures, MCCL reduces training time by up to 4.99x over static schedules on simulated training workloads for state-of-the-art LLMs such as Llama and DeepSeek.</p></div>
             </details>
         
       </div>

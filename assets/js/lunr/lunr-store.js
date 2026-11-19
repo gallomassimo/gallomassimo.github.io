@@ -95,7 +95,7 @@ var store = [{
         "url": "/2025/01/27/ICLR.html",
         "teaser": null
       },{
-        "title": "Invited to the PACMNet (CoNEXT) 2026 program commitee",
+        "title": "Invited to the PACMNet (CoNEXT) 2026 program committee",
         "excerpt":"Looking forward to review exciting system research papers.  ","categories": [],
         "tags": [],
         "url": "/2025/09/24/CONEXT-PC.html",
