@@ -56,7 +56,7 @@ Across my career in research and engineering, my main goals have always been to 
 
 ### <i class="fas fa-user-graduate" style="color: #0760e6">  Education</i>
 
-* **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Trafficc and Resource Management in Content-Centric Networks:
+* **2009 to 2012 Ph.D., Telecom ParisTech, France, Networks and Computer Science.** Industrial - Ph.D through a CIFRE contract between Telecom ParisTech and Orange Labs. Advisor: Prof. Dario Rossi , Industrial Supervisor: Dr. Luca Muscariello. Dissertation: Traffic and Resource Management in Content-Centric Networks:
 Design and Evaluation"
 * **2006 to 2008 M.Sc., Politecnico di Torino, Italy, Computer and Communication networks** Advisor: Dr. Marco Mellia. Thesis: P2P-TV systems measurements
 * **2003 to 2006 B.Sc., Politecnico di Torino, Italy, Computer and Communication networks**
